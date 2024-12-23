@@ -28,48 +28,42 @@ const Header = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a className="text-base  text-white hover:text-green-400">
-                  Home
-                </a>
+                <a className="text-base  text-white hover:text-primary">Home</a>
               </li>
               <li>
-                <a className="text-base  text-white hover:text-green-400">
+                <a className="text-base  text-white hover:text-primary">
                   Recipes
                 </a>
               </li>
               <li>
-                <a className="text-base  text-white hover:text-green-400">
+                <a className="text-base  text-white hover:text-primary">
                   About
                 </a>
               </li>
               <li>
-                <a className="text-base  text-white hover:text-green-400">
+                <a className="text-base  text-white hover:text-primary">
                   Search
                 </a>
               </li>
             </ul>
           </div>
-          <a className="lg:text-xl text-green-400 ">Healthy Calories</a>
+          <a className="lg:text-xl text-primary ">Healthy Calories</a>
         </div>
         <div className="navbar-start hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className="text-base  text-white hover:text-green-400">Home</a>
+              <a className="text-base  text-white hover:text-primary">Home</a>
             </li>
             <li>
-              <a className="text-base  text-white hover:text-green-400">
+              <a className="text-base  text-white hover:text-primary">
                 Recipes
               </a>
             </li>
             <li>
-              <a className="text-base  text-white hover:text-green-400">
-                About
-              </a>
+              <a className="text-base  text-white hover:text-primary">About</a>
             </li>
             <li>
-              <a className="text-base  text-white hover:text-green-400">
-                Search
-              </a>
+              <a className="text-base  text-white hover:text-primary">Search</a>
             </li>
           </ul>
         </div>
@@ -77,9 +71,9 @@ const Header = () => {
           <input
             type="text"
             placeholder="Type here"
-            className="input input-bordered input-success w-full max-w-xs mx-5"
+            className="input input-bordered input-primary w-full max-w-xs mx-5"
           />
-          <a className="btn rounded-full text-green-400">
+          <a className="btn rounded-full text-primary">
             <FaUserAlt />
           </a>
         </div>

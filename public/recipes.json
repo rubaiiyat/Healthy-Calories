@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Classic Beef Burger",
-    "image_url": "https://example.com/images/beef-burger.jpg",
+    "image_url": "https://images.pexels.com/photos/17300437/pexels-photo-17300437/free-photo-of-burger-on-wooden-cutting-board.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "short_description": "Juicy and flavorful beef burger topped with fresh veggies.",
     "ingredients": [
       "500g ground beef",
@@ -12,13 +12,13 @@
       "Salt and pepper to taste",
       "4 burger buns"
     ],
-    "cook_time": "30 minutes",
+    "cook_time": 30,
     "calories": "600 calories"
   },
   {
     "id": 2,
     "title": "Grilled Chicken Salad",
-    "image_url": "https://example.com/images/grilled-chicken-salad.jpg",
+    "image_url": "https://images.pexels.com/photos/1247677/pexels-photo-1247677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "short_description": "Healthy salad with grilled chicken and fresh greens.",
     "ingredients": [
       "200g grilled chicken breast",
@@ -28,13 +28,13 @@
       "2 tbsp olive oil",
       "1 tsp lemon juice"
     ],
-    "cook_time": "20 minutes",
+    "cook_time": 20,
     "calories": "350 calories"
   },
   {
     "id": 3,
     "title": "Spaghetti Carbonara",
-    "image_url": "https://example.com/images/spaghetti-carbonara.jpg",
+    "image_url": "https://images.pexels.com/photos/14930759/pexels-photo-14930759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "short_description": "Creamy Italian pasta with bacon and Parmesan cheese.",
     "ingredients": [
       "250g spaghetti",
@@ -43,13 +43,13 @@
       "50g Parmesan cheese, grated",
       "Salt and pepper to taste"
     ],
-    "cook_time": "25 minutes",
+    "cook_time": 25,
     "calories": "500 calories"
   },
   {
     "id": 4,
     "title": "Vegetable Stir Fry",
-    "image_url": "https://example.com/images/vegetable-stir-fry.jpg",
+    "image_url": "https://images.pexels.com/photos/10695967/pexels-photo-10695967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "short_description": "Quick and healthy stir fry with mixed vegetables.",
     "ingredients": [
       "1 cup broccoli florets",
@@ -58,13 +58,13 @@
       "2 tbsp soy sauce",
       "1 tsp sesame oil"
     ],
-    "cook_time": "15 minutes",
+    "cook_time": 15,
     "calories": "200 calories"
   },
   {
     "id": 5,
     "title": "Margherita Pizza",
-    "image_url": "https://example.com/images/margherita-pizza.jpg",
+    "image_url": "https://images.pexels.com/photos/13541880/pexels-photo-13541880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "short_description": "Classic Italian pizza with tomato sauce and mozzarella cheese.",
     "ingredients": [
       "1 pizza dough",
@@ -73,13 +73,13 @@
       "Fresh basil leaves",
       "1 tsp olive oil"
     ],
-    "cook_time": "20 minutes",
+    "cook_time": 20,
     "calories": "700 calories"
   },
   {
     "id": 6,
     "title": "Tomato Soup",
-    "image_url": "https://example.com/images/tomato-soup.jpg",
+    "image_url": "https://images.pexels.com/photos/3493579/pexels-photo-3493579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "short_description": "Warm and comforting tomato soup with fresh herbs.",
     "ingredients": [
       "4 ripe tomatoes",
@@ -88,13 +88,13 @@
       "500ml vegetable stock",
       "2 tbsp olive oil"
     ],
-    "cook_time": "30 minutes",
+    "cook_time": 30,
     "calories": "150 calories"
   },
   {
     "id": 7,
     "title": "Caesar Salad",
-    "image_url": "https://example.com/images/caesar-salad.jpg",
+    "image_url": "https://images.pexels.com/photos/14775661/pexels-photo-14775661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "short_description": "Crisp romaine lettuce with Caesar dressing and croutons.",
     "ingredients": [
       "200g romaine lettuce",
@@ -102,13 +102,13 @@
       "1/2 cup croutons",
       "2 tbsp Caesar dressing"
     ],
-    "cook_time": "10 minutes",
+    "cook_time": 10,
     "calories": "300 calories"
   },
   {
     "id": 8,
     "title": "Beef Tacos",
-    "image_url": "https://example.com/images/beef-tacos.jpg",
+    "image_url": "https://images.pexels.com/photos/7613561/pexels-photo-7613561.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "short_description": "Delicious beef tacos served with fresh toppings.",
     "ingredients": [
       "300g ground beef",
@@ -117,13 +117,13 @@
       "4 taco shells",
       "Lettuce, diced tomatoes, and cheese"
     ],
-    "cook_time": "20 minutes",
+    "cook_time": 20,
     "calories": "400 calories"
   },
   {
     "id": 9,
     "title": "Chocolate Brownies",
-    "image_url": "https://example.com/images/chocolate-brownies.jpg",
+    "image_url": "https://images.pexels.com/photos/25389817/pexels-photo-25389817/free-photo-of-sweet-cakes-with-cream.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "short_description": "Rich and fudgy chocolate brownies.",
     "ingredients": [
       "200g dark chocolate",
@@ -132,13 +132,13 @@
       "2 eggs",
       "100g flour"
     ],
-    "cook_time": "35 minutes",
+    "cook_time": 35,
     "calories": "450 calories"
   },
   {
     "id": 10,
     "title": "Pancakes",
-    "image_url": "https://example.com/images/pancakes.jpg",
+    "image_url": "https://images.pexels.com/photos/3702403/pexels-photo-3702403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "short_description": "Fluffy pancakes served with syrup and fruits.",
     "ingredients": [
       "200g all-purpose flour",
@@ -147,7 +147,7 @@
       "1 tbsp sugar",
       "1 tsp baking powder"
     ],
-    "cook_time": "15 minutes",
+    "cook_time": 15,
     "calories": "350 calories"
   }
 ]

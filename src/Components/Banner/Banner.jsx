@@ -20,7 +20,7 @@ const Banner = () => {
         </p>
 
         <div className="flex gap-5 justify-center mt-2">
-          <button className="btn bg-green-400 text-black hover:bg-green-500 border-green-500 text-sm ">
+          <button className="btn btn-primary text-black  text-sm ">
             Explore Now
           </button>
           <button className="btn bg-transparent text-white hover:bg-white hover:text-black border-white text-sm ">

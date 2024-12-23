@@ -11,7 +11,7 @@ const Recipes = () => {
   }, []);
   return (
     <div>
-      <div className="flex flex-wrap justify-center items-center gap-5">
+      <div className="flex flex-wrap justify-around items-center gap-5">
         {recipes.map((recipe) => (
           <Recipe key={recipe.id} recipe={recipe}></Recipe>
         ))}

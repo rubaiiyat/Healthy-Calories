@@ -1,0 +1,153 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Beef Burger",
+    "image_url": "https://example.com/images/beef-burger.jpg",
+    "short_description": "Juicy and flavorful beef burger topped with fresh veggies.",
+    "ingredients": [
+      "500g ground beef",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste",
+      "4 burger buns"
+    ],
+    "cook_time": "30 minutes",
+    "calories": "600 calories"
+  },
+  {
+    "id": 2,
+    "title": "Grilled Chicken Salad",
+    "image_url": "https://example.com/images/grilled-chicken-salad.jpg",
+    "short_description": "Healthy salad with grilled chicken and fresh greens.",
+    "ingredients": [
+      "200g grilled chicken breast",
+      "1 cucumber, sliced",
+      "1 tomato, diced",
+      "Lettuce leaves",
+      "2 tbsp olive oil",
+      "1 tsp lemon juice"
+    ],
+    "cook_time": "20 minutes",
+    "calories": "350 calories"
+  },
+  {
+    "id": 3,
+    "title": "Spaghetti Carbonara",
+    "image_url": "https://example.com/images/spaghetti-carbonara.jpg",
+    "short_description": "Creamy Italian pasta with bacon and Parmesan cheese.",
+    "ingredients": [
+      "250g spaghetti",
+      "100g bacon, diced",
+      "2 eggs",
+      "50g Parmesan cheese, grated",
+      "Salt and pepper to taste"
+    ],
+    "cook_time": "25 minutes",
+    "calories": "500 calories"
+  },
+  {
+    "id": 4,
+    "title": "Vegetable Stir Fry",
+    "image_url": "https://example.com/images/vegetable-stir-fry.jpg",
+    "short_description": "Quick and healthy stir fry with mixed vegetables.",
+    "ingredients": [
+      "1 cup broccoli florets",
+      "1 carrot, sliced",
+      "1 bell pepper, chopped",
+      "2 tbsp soy sauce",
+      "1 tsp sesame oil"
+    ],
+    "cook_time": "15 minutes",
+    "calories": "200 calories"
+  },
+  {
+    "id": 5,
+    "title": "Margherita Pizza",
+    "image_url": "https://example.com/images/margherita-pizza.jpg",
+    "short_description": "Classic Italian pizza with tomato sauce and mozzarella cheese.",
+    "ingredients": [
+      "1 pizza dough",
+      "100g mozzarella cheese",
+      "50g tomato sauce",
+      "Fresh basil leaves",
+      "1 tsp olive oil"
+    ],
+    "cook_time": "20 minutes",
+    "calories": "700 calories"
+  },
+  {
+    "id": 6,
+    "title": "Tomato Soup",
+    "image_url": "https://example.com/images/tomato-soup.jpg",
+    "short_description": "Warm and comforting tomato soup with fresh herbs.",
+    "ingredients": [
+      "4 ripe tomatoes",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "500ml vegetable stock",
+      "2 tbsp olive oil"
+    ],
+    "cook_time": "30 minutes",
+    "calories": "150 calories"
+  },
+  {
+    "id": 7,
+    "title": "Caesar Salad",
+    "image_url": "https://example.com/images/caesar-salad.jpg",
+    "short_description": "Crisp romaine lettuce with Caesar dressing and croutons.",
+    "ingredients": [
+      "200g romaine lettuce",
+      "50g Parmesan cheese",
+      "1/2 cup croutons",
+      "2 tbsp Caesar dressing"
+    ],
+    "cook_time": "10 minutes",
+    "calories": "300 calories"
+  },
+  {
+    "id": 8,
+    "title": "Beef Tacos",
+    "image_url": "https://example.com/images/beef-tacos.jpg",
+    "short_description": "Delicious beef tacos served with fresh toppings.",
+    "ingredients": [
+      "300g ground beef",
+      "1 onion, chopped",
+      "1 tsp taco seasoning",
+      "4 taco shells",
+      "Lettuce, diced tomatoes, and cheese"
+    ],
+    "cook_time": "20 minutes",
+    "calories": "400 calories"
+  },
+  {
+    "id": 9,
+    "title": "Chocolate Brownies",
+    "image_url": "https://example.com/images/chocolate-brownies.jpg",
+    "short_description": "Rich and fudgy chocolate brownies.",
+    "ingredients": [
+      "200g dark chocolate",
+      "100g butter",
+      "150g sugar",
+      "2 eggs",
+      "100g flour"
+    ],
+    "cook_time": "35 minutes",
+    "calories": "450 calories"
+  },
+  {
+    "id": 10,
+    "title": "Pancakes",
+    "image_url": "https://example.com/images/pancakes.jpg",
+    "short_description": "Fluffy pancakes served with syrup and fruits.",
+    "ingredients": [
+      "200g all-purpose flour",
+      "2 eggs",
+      "300ml milk",
+      "1 tbsp sugar",
+      "1 tsp baking powder"
+    ],
+    "cook_time": "15 minutes",
+    "calories": "350 calories"
+  }
+]

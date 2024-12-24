@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-const Cooktime = ({ addToCooks, prepareBtn }) => {
+const Cooktime = ({ addToCooks, prepareBtn, showError }) => {
   return (
     <div>
       <div className="overflow-x-auto border p-10 rounded-2xl">
         <h1 className="text-center text-2xl text-white text-bold mb-2">
           Want to cook: {addToCooks.length}
         </h1>
+        <div>
+          <h1 className="text-error p-3 rounded-xl text-center">{showError}</h1>
+        </div>
         <table className="table table-zebra">
           <thead>
             <tr>
@@ -24,10 +27,7 @@ const Cooktime = ({ addToCooks, prepareBtn }) => {
                 <td>{addToCook.cook_time}</td>
                 <td>{addToCook.calories}</td>
                 <td>
-                  <button
-                    className="btn btn-primary mt-3 pl-2"
-                    onClick={prepareBtn}
-                  >
+                  <button className="btn btn-primary mt-3" onClick={prepareBtn}>
                     Preparing
                   </button>
                 </td>

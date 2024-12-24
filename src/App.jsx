@@ -7,12 +7,22 @@ import Recipes from "./Components/Recipes/Recipes";
 
 function App() {
   const [addToCooks, setAddToCook] = useState([]);
+  const [showError, setShowError] = useState([]);
+
   const [prepare, setPrepare] = useState([]);
 
   const addToCookBtn = (recipe) => {
-    const newAddToCook = [...addToCooks, recipe];
+    const isDuplicate = addToCooks.some(
+      (addToCook) => addToCook.id === recipe.id
+    );
 
-    setAddToCook(newAddToCook);
+    if (!isDuplicate) {
+      const newAddToCook = [...addToCooks, recipe];
+      setAddToCook(newAddToCook);
+      setShowError("");
+    } else {
+      setShowError("Already Added This Item");
+    }
   };
 
   const prepareBtn = () => {
@@ -49,6 +59,7 @@ function App() {
             <Cooktime
               addToCooks={addToCooks}
               prepareBtn={prepareBtn}
+              showError={showError}
             ></Cooktime>
           </div>
         </div>

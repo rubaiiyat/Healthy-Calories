@@ -27,7 +27,10 @@ const Cooktime = ({ addToCooks, prepareBtn, showError }) => {
                 <td>{addToCook.cook_time}</td>
                 <td>{addToCook.calories}</td>
                 <td>
-                  <button className="btn btn-primary mt-3" onClick={prepareBtn}>
+                  <button
+                    className="btn btn-primary mt-3"
+                    onClick={() => prepareBtn(addToCook, addToCook.id)}
+                  >
                     Preparing
                   </button>
                 </td>

@@ -25,8 +25,10 @@ function App() {
     }
   };
 
-  const prepareBtn = () => {
-    console.log("working");
+  const prepareBtn = (addToCook, id) => {
+    console.log(addToCook);
+    const updateCook = addToCooks.filter((addToCook) => addToCook.id !== id);
+    setAddToCook(updateCook);
   };
 
   return (

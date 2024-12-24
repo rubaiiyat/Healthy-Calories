@@ -59,7 +59,6 @@ const Cooktime = ({ addToCooks, prepareBtn, prepares, showError }) => {
               <th>Name</th>
               <th>Time</th>
               <th>Calories</th>
-              <th></th>
             </tr>
           </thead>
           <tbody>
@@ -78,6 +77,7 @@ const Cooktime = ({ addToCooks, prepareBtn, prepares, showError }) => {
               <td></td>
               <td>Total Time = {totalMinutes} minutes</td>
               <td>Total Calories = {totalCalories} calories</td>
+              <th></th>
             </tr>
           </tbody>
         </table>

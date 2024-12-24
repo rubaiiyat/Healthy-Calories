@@ -28,6 +28,8 @@ function App() {
   const prepareBtn = (addToCook, id) => {
     const newPrepare = [...prepares, addToCook];
     setPrepare(newPrepare);
+    setShowError("");
+
     const updateCook = addToCooks.filter((addToCook) => addToCook.id !== id);
     setAddToCook(updateCook);
   };

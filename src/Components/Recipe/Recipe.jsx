@@ -33,7 +33,7 @@ const Recipe = ({ recipe, addToCookBtn }) => {
               <FaRegClock /> {cook_time} minutes
             </h1>
             <h1 className="flex items-center gap-2">
-              <FaFire /> {calories}{" "}
+              <FaFire /> {calories} calories
             </h1>
           </div>
           <div className="card-actions">

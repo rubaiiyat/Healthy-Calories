@@ -24,8 +24,8 @@ const Cooktime = ({ addToCooks, prepareBtn, prepares, showError }) => {
               <tr key={addToCook.id}>
                 <th>{index + 1}</th>
                 <td>{addToCook.title}</td>
-                <td>{addToCook.cook_time}</td>
-                <td>{addToCook.calories}</td>
+                <td>{addToCook.cook_time} minutes</td>
+                <td>{addToCook.calories} calories</td>
                 <td>
                   <button
                     className="btn btn-primary mt-3"
@@ -43,7 +43,7 @@ const Cooktime = ({ addToCooks, prepareBtn, prepares, showError }) => {
         <h1 className="text-center text-2xl text-white text-bold mb-2">
           Currently Cooking: {prepares.length}
         </h1>
-        <div></div>
+
         <table className="table table-zebra">
           <thead>
             <tr>
@@ -58,8 +58,10 @@ const Cooktime = ({ addToCooks, prepareBtn, prepares, showError }) => {
               <tr key={prepare.id}>
                 <th>{index + 1}</th>
                 <td>{prepare.title}</td>
-                <td>{prepare.cook_time}</td>
-                <td>{prepare.calories}</td>
+                <td>{prepare.cook_time} minutes</td>
+                <td>{prepare.calories} calories</td>
+                <td></td>
+                <td></td>
               </tr>
             ))}
           </tbody>

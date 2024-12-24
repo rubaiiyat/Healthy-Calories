@@ -13,7 +13,7 @@
       "4 burger buns"
     ],
     "cook_time": 30,
-    "calories": "600 calories"
+    "calories": 600
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "1 tsp lemon juice"
     ],
     "cook_time": 20,
-    "calories": "350 calories"
+    "calories": 350
   },
   {
     "id": 3,
@@ -44,7 +44,7 @@
       "Salt and pepper to taste"
     ],
     "cook_time": 25,
-    "calories": "500 calories"
+    "calories": 500
   },
   {
     "id": 4,
@@ -59,7 +59,7 @@
       "1 tsp sesame oil"
     ],
     "cook_time": 15,
-    "calories": "200 calories"
+    "calories": 200
   },
   {
     "id": 5,
@@ -74,7 +74,7 @@
       "1 tsp olive oil"
     ],
     "cook_time": 20,
-    "calories": "700 calories"
+    "calories": 700
   },
   {
     "id": 6,
@@ -89,7 +89,7 @@
       "2 tbsp olive oil"
     ],
     "cook_time": 30,
-    "calories": "150 calories"
+    "calories": 150
   },
   {
     "id": 7,
@@ -103,7 +103,7 @@
       "2 tbsp Caesar dressing"
     ],
     "cook_time": 10,
-    "calories": "300 calories"
+    "calories": 300
   },
   {
     "id": 8,
@@ -118,7 +118,7 @@
       "Lettuce, diced tomatoes, and cheese"
     ],
     "cook_time": 20,
-    "calories": "400 calories"
+    "calories": 400
   },
   {
     "id": 9,
@@ -133,7 +133,7 @@
       "100g flour"
     ],
     "cook_time": 35,
-    "calories": "450 calories"
+    "calories": 450
   },
   {
     "id": 10,
@@ -148,6 +148,6 @@
       "1 tsp baking powder"
     ],
     "cook_time": 15,
-    "calories": "350 calories"
+    "calories": 350
   }
 ]

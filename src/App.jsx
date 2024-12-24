@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import Banner from "./Components/Banner/Banner";
 import Cooktime from "./Components/Cooktime/Cooktime";
@@ -5,6 +6,11 @@ import Header from "./Components/Header/Header";
 import Recipes from "./Components/Recipes/Recipes";
 
 function App() {
+  const [addToCook, setAddToCook] = useState([]);
+
+  const addToCookBtn = (recipe) => {
+    console.log(recipe);
+  };
   return (
     <>
       <Header></Header>
@@ -29,10 +35,9 @@ function App() {
 
         <div className="flex-row md:flex lg:justify-between gap-20">
           <div>
-            <Recipes></Recipes>
+            <Recipes addToCookBtn={addToCookBtn}></Recipes>
           </div>
           <div>
-            <h1>This is Cooke Time Section</h1>
             <Cooktime></Cooktime>
           </div>
         </div>

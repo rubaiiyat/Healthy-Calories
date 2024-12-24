@@ -3,14 +3,17 @@ import React from "react";
 const Cooktime = () => {
   return (
     <div>
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto border p-10 rounded-2xl">
+        <h1 className="text-center text-2xl text-white mb-2">
+          Want to cook: 01
+        </h1>
         <table className="table table-zebra">
           <thead>
             <tr>
               <th></th>
               <th>Name</th>
-              <th>Job</th>
-              <th>Favorite Color</th>
+              <th>Time</th>
+              <th>Calories</th>
             </tr>
           </thead>
           <tbody>

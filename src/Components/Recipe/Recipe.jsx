@@ -1,6 +1,6 @@
 import React from "react";
 import { FaRegClock, FaFire } from "react-icons/fa";
-const Recipe = ({ recipe }) => {
+const Recipe = ({ recipe, addToCookBtn }) => {
   const {
     title,
     image_url,
@@ -37,7 +37,12 @@ const Recipe = ({ recipe }) => {
             </h1>
           </div>
           <div className="card-actions">
-            <button className="btn btn-primary">Want to Cook</button>
+            <button
+              onClick={() => addToCookBtn(recipe)}
+              className="btn btn-primary"
+            >
+              Want to Cook
+            </button>
           </div>
         </div>
       </div>

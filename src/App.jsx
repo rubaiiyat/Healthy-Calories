@@ -6,11 +6,14 @@ import Header from "./Components/Header/Header";
 import Recipes from "./Components/Recipes/Recipes";
 
 function App() {
-  const [addToCook, setAddToCook] = useState([]);
+  const [addToCooks, setAddToCook] = useState([]);
 
   const addToCookBtn = (recipe) => {
-    console.log(recipe);
+    const newAddToCook = [...addToCooks, recipe];
+
+    setAddToCook(newAddToCook);
   };
+
   return (
     <>
       <Header></Header>
@@ -38,7 +41,7 @@ function App() {
             <Recipes addToCookBtn={addToCookBtn}></Recipes>
           </div>
           <div className="sticky top-5 self-start">
-            <Cooktime></Cooktime>
+            <Cooktime addToCooks={addToCooks}></Cooktime>
           </div>
         </div>
       </div>

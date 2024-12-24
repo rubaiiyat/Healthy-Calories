@@ -33,11 +33,11 @@ function App() {
           </p>
         </div>
 
-        <div className="flex-row md:flex lg:justify-between gap-20">
+        <div className="flex-row md:flex lg:justify-between gap-10">
           <div>
             <Recipes addToCookBtn={addToCookBtn}></Recipes>
           </div>
-          <div>
+          <div className="sticky top-5 self-start">
             <Cooktime></Cooktime>
           </div>
         </div>

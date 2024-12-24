@@ -2,7 +2,7 @@ import React from "react";
 
 const Cooktime = () => {
   return (
-    <div>
+    <div className="fiexd top-0">
       <div className="overflow-x-auto border p-10 rounded-2xl">
         <h1 className="text-center text-2xl text-white mb-2">
           Want to cook: 01

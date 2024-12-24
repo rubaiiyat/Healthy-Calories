@@ -7,11 +7,16 @@ import Recipes from "./Components/Recipes/Recipes";
 
 function App() {
   const [addToCooks, setAddToCook] = useState([]);
+  const [prepare, setPrepare] = useState([]);
 
   const addToCookBtn = (recipe) => {
     const newAddToCook = [...addToCooks, recipe];
 
     setAddToCook(newAddToCook);
+  };
+
+  const prepareBtn = () => {
+    console.log("working");
   };
 
   return (
@@ -41,7 +46,10 @@ function App() {
             <Recipes addToCookBtn={addToCookBtn}></Recipes>
           </div>
           <div className="sticky top-5 self-start">
-            <Cooktime addToCooks={addToCooks}></Cooktime>
+            <Cooktime
+              addToCooks={addToCooks}
+              prepareBtn={prepareBtn}
+            ></Cooktime>
           </div>
         </div>
       </div>

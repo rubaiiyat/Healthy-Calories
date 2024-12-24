@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cooktime = ({ addToCooks }) => {
+const Cooktime = ({ addToCooks, prepareBtn }) => {
   return (
     <div>
       <div className="overflow-x-auto border p-10 rounded-2xl">
@@ -24,7 +24,10 @@ const Cooktime = ({ addToCooks }) => {
                 <td>{addToCook.cook_time}</td>
                 <td>{addToCook.calories}</td>
                 <td>
-                  <button className="btn btn-primary mt-3 pl-2">
+                  <button
+                    className="btn btn-primary mt-3 pl-2"
+                    onClick={prepareBtn}
+                  >
                     Preparing
                   </button>
                 </td>

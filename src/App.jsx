@@ -9,7 +9,7 @@ function App() {
   const [addToCooks, setAddToCook] = useState([]);
   const [showError, setShowError] = useState([]);
 
-  const [prepare, setPrepare] = useState([]);
+  const [prepares, setPrepare] = useState([]);
 
   const addToCookBtn = (recipe) => {
     const isDuplicate = addToCooks.some(
@@ -26,7 +26,8 @@ function App() {
   };
 
   const prepareBtn = (addToCook, id) => {
-    console.log(addToCook);
+    const newPrepare = [...prepares, addToCook];
+    setPrepare(newPrepare);
     const updateCook = addToCooks.filter((addToCook) => addToCook.id !== id);
     setAddToCook(updateCook);
   };
@@ -61,6 +62,7 @@ function App() {
             <Cooktime
               addToCooks={addToCooks}
               prepareBtn={prepareBtn}
+              prepares={prepares}
               showError={showError}
             ></Cooktime>
           </div>
